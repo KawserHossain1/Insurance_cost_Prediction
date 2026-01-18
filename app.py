@@ -6,7 +6,7 @@ import pickle
 import numpy as np
 
 # 1. Load the Model
-with open("Insurance_costs_gf_pipeline.pkl", "rb") as f:
+with open("Insurance-costs-gf-pipeline.pkl", "rb") as f:
     model = pickle.load(f)
 
 # 2. The Logic Function
