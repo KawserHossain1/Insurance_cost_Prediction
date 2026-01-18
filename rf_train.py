@@ -93,7 +93,7 @@ print(f"R2 Score: {r2:.4f}")
 # Save model (IMPORTANT)
 # =====================
 
-with open("Insurance_costs_gf_pipeline.pkl", "wb") as f:
+with open("Insurance-costs-gf-pipeline.pkl", "wb") as f:
     pickle.dump(gf_pipeline, f)
 
 print("✅ Gradient Boosting pipeline saved as Insurance_costs_gf_pipeline.pkl")
