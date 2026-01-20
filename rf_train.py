@@ -52,11 +52,11 @@ preprocessor = ColumnTransformer(transformers=[
 # Gradient Boosting Model
 # =====================
 gf_model = GradientBoostingRegressor(
-    n_estimators=100,
-    max_depth=10,
-    min_samples_split=5,
+    n_estimators=183,
+    max_depth=3,
+    min_samples_split=3,
     random_state=42,
-  
+    learning_rate=0.05,
     verbose=2
     
 )
